@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Concept Clear</title>
+	</head>
+	<body>
+		<h1>test</h1>
+		<form action="" id="contactForm" onsubmit="handleSubmit(event)">
+			<input
+				type="text"
+				name="phoneNumber"
+				id="phoneNumber"
+				oninvalid="alert('You must fill out the form!');"
+				required
+			/>
+			<br /><br />
+			<button type="submit">Click To Submit</button>
+		</form>
+
+		<!-- Scripts -->
+		<script src="./JS/main.js"></script>
+	</body>
+</html>
